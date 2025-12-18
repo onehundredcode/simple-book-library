@@ -1,0 +1,55 @@
+/* Global resets + base styles */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: #1e293b; /* light modern gray */
+    margin: 0;
+    padding: 40px 20px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #1a73e8;
+    letter-spacing: -0.5px;
+}
+
+/* Book card styling */
+.book {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin: 15px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    border-left: 6px solid #4a90e2; /* a subtle accent color */
+}
+
+/* Hover effect */
+.book:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* Book title */
+.book h2 {
+    margin: 0 0 8px 0;
+    color: #1a73e8; 
+    font-size: 1.4rem;
+}
+
+/* Author & year text */
+.book p {
+    margin: 4px 0;
+    color: #5f6368;
+}
+
+/* Make app feel more spacious on bigger screens */
+#book-list {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
